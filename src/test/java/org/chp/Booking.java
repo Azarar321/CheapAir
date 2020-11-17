@@ -75,6 +75,7 @@ public class Booking extends FlightBase {
 		FinalPagePojo fpg=new FinalPagePojo();
 		clickButton(fpg.getBtnNoThanksfinal());
 		screenShot("OrderPage");
+		System.out.println("order done");
 	}
 	@AfterClass
 	public static void quitBrow() {
